@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sale{
+    /* border: solid 1px black; */
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    row-gap: 20px ;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 5px aqua;
+}
+
+.saled__title{
+
+}
+.saled__text{
+    text-align: center;
+}
+
+.btn{
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    font-weight: 600;
+    color: orange; 
+}
