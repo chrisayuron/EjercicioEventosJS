@@ -11,7 +11,7 @@ boton.addEventListener('click',e=>{
     else if(username==='carlitos' && password==='carlitos123'){
         alert('BIENVENIDO')
         setTimeout(()=>{
-            location="./html/page.html"
+            location.href="./html/page.html"
         },1000)
     } else {
         document.querySelector('#mensaje').style.display='block'

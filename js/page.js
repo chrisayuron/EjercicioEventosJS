@@ -31,7 +31,7 @@ const lista=document.querySelector('#lista')
 const item = document.querySelector('.item')
 const modal = document.querySelector('.modal__pedido')
 
-document.querySelector('.salida').addEventListener('click',()=>location="./index.html")
+document.querySelector('.salida').addEventListener('click',()=>location.href="../index.html")
 
 document.querySelector('.pedir').addEventListener('click',()=>{
     if(lista.options[lista.selectedIndex].value==='ninguno'){
@@ -50,5 +50,5 @@ document.querySelector('.cancel').addEventListener('click',()=>{
 
 document.querySelector('.accept').addEventListener('click',()=>{
     modal.style.top='-2000px';
-    location="./fin.html"
+    location.href="./fin.html"
 })
