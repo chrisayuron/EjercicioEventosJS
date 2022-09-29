@@ -1,32 +1,3 @@
-// const pedir=document.querySelector('.pedir')
-// const lista =document.querySelector('#lista')
-// const modal = document.querySelector('.modal')
-// const escogido=document.getElementById('producto__escogido')
-
-// const cancelar = document.querySelector('.cancelar')
-// const aceptar = document.querySelector('.aceptar')
-
-
-// pedir.addEventListener('click',()=>{
-//     if(lista.options[lista.selectedIndex].value==='ninguno'){
-//         alert('no escogiste')
-//     } else{
-//         modal.style.top=0
-//         escogido.textContent=
-//         lista.options[lista.selectedIndex].text
-//     }
-    
-// })
-
-// cancelar.addEventListener('click',()=>{
-//     modal.style.top='-800px'
-//     lista.selectedIndex=0
-// })
-
-// aceptar.addEventListener('click',()=>{
-//     location='./html/fin.html'
-// })
-
 const lista=document.querySelector('#lista')
 const item = document.querySelector('.item')
 const modal = document.querySelector('.modal__pedido')
